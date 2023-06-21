@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+  }
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+#leftScroller
+{
+    width: 30%;
+    background-color: burlywood;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#rightCol{
+    width: 100%;
+    height: 100%;
+}
+
+.categoryTitle{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    background-color: aliceblue;
+
+}
+
+.category
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:  right;
+
+}
+
+.categoryBalise{
+    justify-content: right;
+
+}
+
+.block{
+    margin:40px;
+}
+
+.blockTitle{
+    background-color: darksalmon;
+    width: auto;
+}
+
+table,
+td {
+    border: 1px solid #333;
+    font-size: x-small;
+}
+
+table , th{
+    border: 1px solid #333;
+}
+
+.exemple{
+    margin:20px;
+}
+
+.example , img
+{
+    width:40%
+}
