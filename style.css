@@ -8,7 +8,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: row;
+    
   }
+
+*{
+    scroll-behavior: smooth;
+}
+
 #leftScroller
 {
     width: 30%;
@@ -31,9 +37,11 @@ body {
     padding: 3px;
     margin: 5px;
     background-color: aliceblue;
-
+    
 }
-
+a{
+    scroll-behavior: smooth;
+}
 .category
 {
     display: flex;
